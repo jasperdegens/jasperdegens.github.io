@@ -1,0 +1,352 @@
+<html>
+    
+    <head>
+        <title>
+            imPact!
+        </title>
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/idangerous.swiper.css">
+<link href='http://fonts.googleapis.com/css?family=Raleway|Roboto:400,100' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" type="text/css" href="css/darkstrap.css">
+        <style type="text/css">
+            body{ background: url(images/pw_maze_black.png) repeat 0 0; font-family: 'Roboto', sans-serif; font-size: 15px; font-weight: 100;
+ } 
+            h1{font-family: 'Raleway', sans-serif; color:#eee; margin:0; font-weight: 400 } 
+            #logo_header{ text-align: center; } 
+            .logo{ position:absolute;
+            left:50%; margin-left:-390px; margin-top:20px;} 
+            #remix{opacity: .55; margin-left:-300px;}
+            #nav{ padding-top: 230px; text-align: center; } 
+        /*    #nav li{ display:inline-block; margin-right: 10px; position:relative; } 
+            #nav li a img:last-child{ position: absolute; top:0; left:0; display:none;
+            } */
+            a{ color:#fff; text-decoration: none; font-weight: 400} 
+            a:hover{ text-decoration: none;}
+            #slideBox{ position: relative; width:712px; height: 365px; margin:0 auto; z-index: 100; margin-bottom: 50px;}
+             #slideContainer{ position:absolute; top:40px; left:137px; border:1px
+            solid #333; background-color: #000; } 
+            .headline{ text-align: center; }
+            #header{ height: 270px;}
+            p{ font-family: 'Roboto', sans-serif; font-weight: 100; font-size: 18px; line-height: 27px; color:#fcfcfc;}
+            hr{ margin:12px 0;}
+            .well{ background-color: rgba(75, 75, 75, .3);}
+            .float-left{ float:left; margin-left:-20px;}
+            .float-right{float:right; margin-right:-20px;}
+            .clear-both{clear:both;}
+            .info-box{width:210px; background-color: rgba(50, 50, 50, .3);display: none;}
+            .hero-unit{ margin: 20px 0 0 0; padding:20px;}
+            @-webkit-keyframes pulse { 0% {color: #0088cc;} 25% {color: #00E830;} 50% {color: ##FFAF00;} 75% {color: #E80600;} 100% {color: #BD00FF;} }           
+            .imPact{ font-weight: 400; color: #0088cc; -webkit-animation: pulse 40s infinite alternate;
+            }
+
+            #ribbon{ top:0; right:0; position: absolute;}
+
+            #swipeMe{ position: absolute; z-index: 1000; top:0; right:-2px;}
+            .center{ text-align: center;}
+        </style>
+
+        <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38625375-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+    </script>
+    </head>
+    
+    <body>
+      <a id="ribbon" href="https://itunes.apple.com/us/app/impact-remix/id593623478?mt=8&uo=4" target="itunes_store"><img src="images/ribbon_dark.png" alt=""></a>
+          <div class="container">
+            <div class="row">
+                <div id="header">
+                    <div class="logo_header">  
+                         <img src="images/ipad_impact.png" class="logo" id="glow">
+                        <img src="images/ipad_impact_stencil.png" alt="" class="logo" id="outline">
+                        <img src="images/ipad_remix.png" alt="" class="logo" id="remix">
+                    </div>
+
+                </div>
+                <div id="content">
+                    <div id="infoBoxes">
+                      <div class="well info-box float-right" id="drawInfo">
+                          <h1>Draw freely</h1>
+                          <hr>
+                          <p>Place, size, and shape drums however you want - as long as the drum does not self intersect. Remember: how you draw the drum affects how it sounds!</p>
+                     </div>
+                     <div class="well info-box float-left" id="menuInfo">
+                          <h1>Interactive Menu</h1>
+                          <hr>
+                          <p>Each menu button is a playable drum pad.</p>
+                     </div>
+                     <div class="well info-box float-left" id="exploreInfo">
+                          <h1>Expansive Features</h1>
+                          <hr>
+                          <p>Explore the options menu for features including:</p>
+                          <ul>
+                            <li>Loop station</li>
+                            <li>Save/Load kits</li>
+                            <li>Play along with songs from your iTunes library</li>
+                            <li>Buy new kits</li>
+                          </ul>
+                     </div>
+
+                     <div class="well info-box float-right" id="downloadInfo">
+                          <h1>Get imPact Today!</h1>
+                          <hr>
+                          <p>Download imPact via the App Store.</p>
+                          <a href="https://itunes.apple.com/us/app/impact-remix/id593623478?mt=8&uo=4" target="itunes_store"><img src="images/app_store.png" alt=""></a>
+                     </div>
+                     <div class="well info-box float-right" id="createInfo">
+                          <h1>Get Creative</h1>
+                          <hr>
+                          <p>A recent drum kit design submitted by Jonah Ostroff:</p>
+                          <div class="hero-unit">"Venn diadrums, so you can play any subset with one tap."</div>
+                     </div>
+                    </div>
+                    <div id="slideBox">
+                        <img id="iphone" src="images/iphone.png" alt="">
+                        <div id="slideContainer">
+                          <img id="swipeMe" src="images/ribbon_swipe.png" alt="">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <!--First Slide-->
+                                    <div class="swiper-slide" id="menu">
+                                        <img src="images/menu.jpg" alt="">
+                                    </div>
+                                    <!--Second Slide-->
+                                    <div class="swiper-slide" id="draw">
+                                        <img src="images/draw.jpg" alt="">
+                                    </div>
+                                    <!--Third Slide-->
+                                    <div class="swiper-slide" id="explore">
+                                         <img src="images/pallet.jpg" alt="">
+                                    </div>                                    
+                                    <div class="swiper-slide" id="download">
+                                         <img src="images/impact_draw.jpg" alt="">
+
+                                    </div> 
+                                    <div class="swiper-slide" id="create">
+                                         <img src="images/diadrum.jpg" alt="">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="nav navbar center">
+                          <ul class="nav navbar">
+                            <li>Menu</li>
+                            <li>Draw</li>
+                            <li>Features</li>
+                            <li>Download</li>
+                          </ul>
+                        </div> -->
+                    </div>
+
+                     <div class="clear-both"></div>
+                    <div class="details">
+                      <div class="span4">
+                        <div class="well" id="home">
+                          <h1>What is imPact?</h1>
+                          <hr>
+                          <p><span class="imPact">imPact remix</span> is the first draw-your-own drumkit application, compatible with iPad, iPhone, and iPod touch. It features 3 default kits, a loop station, saving/loading kits, and much, much more.</p>
+                        </div>
+                      </div>
+                      <div class="span4">
+                        <div class="well" id="store">
+                          <h1>Expand your Kits:</h1>
+                          <hr>
+                          <p>Drum kits can be purchased via the in-app store. Current packs include:</p>
+                          <ul>
+                            <li>Roland</li>
+                            <li>808</li>
+                            <li>Glitchy</li>
+                            <li>Punchy</li>
+                          </ul>
+                          <p>More kits coming soon...</p>
+                        </div>
+                      </div>
+                      <div class="span4">
+                        <div class="well" id="about">
+                          <h1>About:</h1>
+                          <hr>
+                          <p><span class="imPact">imPact remix</span> was developed by Sam Zeckendorf, Jasper Degens, and Nate Harada. The app was first released in early 2013 and has been a project of love for all three.</p>
+                          <div class="hero-unit">Please contact  <a href="mailto:jasperdegens@gmail.com?Subject=imPact%20Feedback">Jasper Degens</a> with questions, comments, and/or feedback.</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+        <script type="text/javascript" src="js/jquery-1.8.2.min.js">
+        </script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js">
+        </script>
+        <script type="text/javascript" src="js/particle.js">
+        </script>
+        <script type="text/javascript" src="js/idangerous.swiper-1.8.5.min.js">
+        </script>
+        <!-- // <script type="text/javascript" src="js/stellar.min.js"></script>
+        <script type="text/javascript" src="js/TweenMax.min.js">
+        </script>
+        <script type="text/javascript" src="js/jquery.superscrollorama.js">
+        </script> -->
+            <script type="text/javascript">
+              function pulse(name, time) {
+      var elem = '#' + name;
+      $(elem).fadeIn(time, function() {
+          $(elem).fadeOut(time, pulse(name, time));
+      });
+  }
+
+
+  // $('#nav>li').children().each(function() {
+  //     $(this).hover(function() {
+  //         $(this).children().last().stop().fadeIn(200);
+  //     }, function() {
+  //         $(this).children().last().stop().fadeOut(200);
+  //     });
+  // });
+
+  $(document).ready(function() {
+      pulse('glow', 3000);
+      
+      //check width of window
+      //if too small change floats
+      if ($(window).width() < 1280) {
+        adjustFloats();
+      }
+      //boom_maker();
+      //initialize swiper
+      // $(window).stellar();
+      // var controller = $.superscrollorama();
+      // controller.addTween('#slideBox', TweenMax.from($('#slideBox'), .5, {
+      //     css: {
+      //         opacity: 0
+      //     }
+      // }));
+       var mySwiper = new Swiper('.swiper-container', {
+           speed: 750,
+           onSlideChangeEnd: function(){
+              showInfo(mySwiper);
+            },
+            onTouchMove: function(){
+              $('#swipeMe').fadeOut(400);
+            }
+       });
+
+  });
+
+  $(window).resize(function(){
+    if($(window).width() < 1280){
+      adjustFloats();
+    }
+  });
+
+  function adjustFloats(){
+    $('#slideBox').after($('#infoBoxes'));
+    $('.info-box').css("float", "none")
+                  .css("margin", "50px auto")
+                  .css("width", "420px")
+                  .css("margin-top", "-30px");
+  }
+
+  function showInfo(swiper){
+    var slide = swiper.currentSlide();
+    var id = $(slide).attr("id");
+    var $elem = $('#' + id + 'Info');
+    if ($(window).width() > 1280){
+      var height = $elem.outerHeight();
+      $elem.css("margin-top", (365 - height) / 2);
+    }
+    if($elem.css('display') == 'none'){
+      $('.info-box').fadeOut(300);
+      $elem.delay(300).fadeIn(600); 
+    }
+
+  }
+
+  function boom_maker() {
+      var x = Math.floor(Math.random() * 100) + '%';
+      var y = Math.floor(Math.random() * 100) + '%';
+      make_boom(x, y, 10);
+      window.setTimeout(boom_maker, 1000);
+  }
+
+  function make_boom(x, y, zLevel) {
+      var emitter = new particle_emitter({
+          image: 'images/particle.gif',
+          center: [x, y],
+          offset: [0, 0],
+          radius: 0,
+          size: 5,
+          velocity: 100,
+          decay: 1000,
+          rate: 200,
+          zLevel: zLevel
+      });
+      emitter.start();
+      window.setTimeout(boom_stop, 60, emitter);
+  }
+
+  function boom_stop(emitter) {
+      emitter.stop();
+  }
+  var pageHeight = $(window).height();
+  var drumImgs = ['bass_drum',
+                  'cowbell',
+                  'low_tom',
+                  'maracas',
+                  'ride',
+                  'ron_winter',
+                  'snare',
+                  'triangle'];
+  var accel = 1;
+  var height = 0;
+
+  function drumShower(){
+    var numDrums = drumImgs.length;
+    var xOffset = $(window).width() / numDrums;
+    for(var i = 0; i < numDrums; i++){
+      var imgPath = 'images/' + drumImgs[i] + '.png';
+      var drum = new Image;
+      drum.src = imgPath;
+      var xVelocity = Math.random() * 5;
+      var yVelocity = Math.random() * 5;
+      $(drum).css("position", "absolute")
+            .css("top", "0")
+            .css("left", (i + 1) * xOffset - 3*xOffset/4)
+            .css("z-index", "9999")
+            .css("background-color", "black")
+            .data("xVelocity", xVelocity)
+            .data("yVelocity", yVelocity)
+            .addClass("fallingDrum");
+      $(drum).prependTo($('body'));
+    }
+    var updateLoop = setInterval(update, 10);
+    console.log(pageHeight);
+  }
+
+  function update(){
+   // var newY = $('.fallingDrum').css("top");
+    accel += .1;
+    var pos = accel*accel;
+    if(pos >= pageHeight){
+      $('.fallingDrum').remove();
+    }
+    $('.fallingDrum').css("top", 1*accel*accel);
+
+  }
+  $(document).on('mousedown', function(e) {
+      if(Math.random() > .8){
+        make_boom(e.pageX, e.pageY, 999);
+      }
+  });
+            </script>
+    </body>

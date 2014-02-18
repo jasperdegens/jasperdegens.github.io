@@ -1,0 +1,70 @@
+<html>
+<head>
+  <link rel="stylesheet" href="./bootstrap.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100' rel='stylesheet' type='text/css'>
+<style>
+  body{font-size: 35px; font-family: 'Josefin Sans', sans-serif;}
+  .numRow {width: 100%; padding: 5px;}
+  .numInput {display: inline-block; height: 70px;
+             width: 70px; border-radius: 35px; 
+            padding: 13px 24px; border: solid 1px #000; cursor: default;
+          }
+  .container{width: 280px;}
+  </style>
+</head>
+  <body>
+    <div class="container">
+      <div class="numRow">
+      <div class="numInput" id="1">1</div>
+      <div class="numInput" id="2">2</div>
+      <div class="numInput" id="3">3</div>
+    </div>
+    <div class="numRow">
+      <div class="numInput" id="4">4</div>
+      <div class="numInput" id="5">5</div>
+      <div class="numInput" id="6">6</div>
+    </div>
+    <div class="numRow">
+      <div class="numInput" id="7">7</div>
+      <div class="numInput" id="8">8</div>
+      <div class="numInput" id="9">9</div>
+    </div>
+    <div class="numRow">
+      <div class="numInput" id="#">#</div>
+      <div class="numInput" id="0">0</div>
+      <div class="numInput" id="*">*</div>
+    </div>
+    <div class="input-group">
+      <input type="text" id="currNum" class="form-control">
+        <span class="input-group-btn">
+          <button class="btn btn-success" type="button">Submit!</button>
+        </span>
+    </div><!-- /input-group -->  
+  <!-- <div class="progress progress-striped active">
+    <div class="progress-bar"  role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+    </div>
+  </div> -->
+    </div>
+    <script>
+    $('.numInput').on('click', function(){
+      var num = ($(this).attr('id'));
+      $("#currNum").val($("#currNum").val() + num);
+    });
+    $('.btn').on('click', function(event) {
+      var num = $('#currNum').val();
+      $('#currNum').val('');
+
+      // setInterval(function(){
+
+      // }, 50);
+
+      if(num == 27){
+        alert("Enter");
+      }
+      /* Act on the event */
+    });
+    </script>
+  </body>
+
+</html>
