@@ -3,8 +3,8 @@
 require "twilio-php/Services/Twilio.php";
  
 // set your AccountSid and AuthToken from www.twilio.com/user/account
-$AccountSid = "AC0560a394c9895090b80ee2e12ff46f01";
-$AuthToken = "029cc0fefd2c001f6a5c72ada6a87817";
+$AccountSid = "";
+$AuthToken = "";
  
 $client = new Services_Twilio($AccountSid, $AuthToken);
  $options = array('if_machine' => 'Hangup'); 
@@ -153,7 +153,7 @@ $from = '617-294-5591';
 //     '650-380-1549',
 //     '516-712-4784'
 //   );
-$vic = array('818-817-1818');
+// $vic = array('818-817-1818');
 
 $allNums = array_unique($vic);
 asort($allNums);
