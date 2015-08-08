@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "cgi-bin"
-AuthUserFile "/home/jasper15/.htpasswds/public_html/cgi-bin/passwd"
-require valid-user
