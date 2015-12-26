@@ -119,6 +119,10 @@ section{
   left: 0;
 }
 
+.flip-img{
+  z-index: -1;
+}
+
 .info-box{
   margin: 0 auto;
   background-color: #ffffff;
@@ -138,7 +142,6 @@ section{
 .flip-info{
   transform: rotateX(180deg);
   -webkit-transform: rotateX(180deg);
-  z-index: -1;
 }
 
 .info-box h1, .info-box p{
