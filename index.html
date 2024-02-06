@@ -10,17 +10,26 @@
       name="description"
       content="Portfolio for Jasper Degens, interactive artist and tech enthusiast."
     />
-		<meta charset="utf-8" />
+    <meta charset="utf-8" />
     <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
     <script src="https://cdn.tailwindcss.com"></script>
+		<script>
+			 tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            bounce: '#13bfbf',
+						jdBlue: '#015ab5',
+          }
+        }
+      }
+    }
+		</script>
     <style type="text/css">
       body {
         max-width: 900px;
         color: #333333;
         font-family: monospace;
-      }
-      a {
-        color: #015ab5 !important;
       }
     </style>
   </head>
@@ -61,126 +70,129 @@
         <ul class="list-inside list-disc space-y-6 ml-3 mt-3">
           <li>
             <a
-              class="text-lg"
+              class="text-lg transition-colors text-jdBlue hover:bg-bounce hover:bg-opacity-10"
               target="_blank"
               rel="noreferrer"
               href="https://www.teamlab.art/e/borderless-azabudai/"
-              >teamLab Borderless</a
+              >teamLab Borderless -
+              <span class="text-gray-800 transition-colors group-hover:text-white font-semibold text-base">Tokyo, 2024</span></a
             >
-            - <b>Tokyo, 2024</b>
-            <p class="ml-8 text-gray-700">
+            <p class="ml-8 text-gray-700 ">
               A groundbreaking experience where artworks have no boundaries.
             </p>
           </li>
-					<li>
+          <li>
             <a
-              class="text-lg"
+              class="text-lg transition-colors text-jdBlue hover:bg-bounce hover:bg-opacity-10"
               target="_blank"
               rel="noreferrer"
               href="https://www.dendekaden.com/"
-              >DenDekaDen</a
-            >
-            - <b>International, 2023</b>
-						<p class="ml-8 text-gray-700">
-              Japan's #1 web3 anime IP, a collaboration with megastudio Toei Animation.
+              >DenDekaDen
+            - <span class="text-gray-800 font-semibold text-base">International, 2023</span></a>
+            <p class="ml-8 text-gray-700">
+              Japan's #1 web3 anime IP, a collaboration with megastudio Toei
+              Animation.
             </p>
           </li>
           <li>
             <a
-              class="text-lg"
+              class="text-lg transition-colors text-jdBlue hover:bg-bounce hover:bg-opacity-10"
               target="_blank"
               rel="noreferrer"
               href="https://www.youtube.com/watch?v=HFIhXnBQBFs"
-              >Sugar Coated Lies</a
-            >
-            - <b>Kyoto, 2022</b>
+              >Sugar Coated Lies - <span class="text-gray-800 font-semibold text-base">Kyoto, 2022</span></a>
             <p class="ml-8 text-gray-700">
-              AR sculptures and physical mosaics that explore capitalism,  architecture, and excess.
+              AR sculptures and physical mosaics that explore capitalism,
+              architecture, and excess.
             </p>
           </li>
-					<li>
-						<a
-							class="text-lg"
-							target="_blank"
-							rel="noreferrer"
-							href="https://www.superblue.com/miami/"
-							>Superblue Miami</a
-						>
-						- <b>Miami, 2022</b>
-						<p class="ml-8 text-gray-700">
-							teamLab exhibition alongside James Turrell and Es Devlin.
-						</p>
-					</li>
           <li>
             <a
-              class="text-lg"
+              class="text-lg transition-colors text-jdBlue hover:bg-bounce hover:bg-opacity-10"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.superblue.com/miami/"
+              >Superblue Miami
+            - <span class="text-gray-800 font-semibold text-base">Miami, 2022</span></a>
+            <p class="ml-8 text-gray-700">
+              teamLab exhibition alongside James Turrell and Es Devlin.
+            </p>
+          </li>
+          <li>
+            <a
+              class="text-lg transition-colors text-jdBlue hover:bg-bounce hover:bg-opacity-10"
               target="_blank"
               rel="noreferrer"
               href="https://wholepicture.strata.gallery/"
-              >Whole Picture</a
-            >
-            - <b>Virtual, 2021</b>
-						<p class="ml-8 text-gray-700">
-              Interactive art experience slashes through canvases create dynamic, revealing layers.
-            </p>
-          </li>
-          <li>
-            <a class="text-lg" target="_blank" rel="noreferrer" href="mbct.html"
-              >Mikkeller Beer Celebration Tokyo (MBCT)</a
-            >
-            -
-            <b>Tokyo, 2019</b>
-						<p class="ml-8 text-gray-700">
-              Beer themed visual effects and「カンパイ」("kanpai") booth for beer festival in Shibuya.
+              >Whole Picture
+            - <span class="text-gray-800 font-semibold text-base">Virtual, 2021</span></a>
+            <p class="ml-8 text-gray-700">
+              Interactive art experience slashes through canvases create
+              dynamic, revealing layers.
             </p>
           </li>
           <li>
             <a
-              class="text-lg"
+              class="text-lg transition-colors text-jdBlue hover:bg-bounce hover:bg-opacity-10"
+              target="_blank"
+              rel="noreferrer"
+              href="mbct.html"
+              >Mikkeller Beer Celebration Tokyo (MBCT)
+            -
+            <span class="text-gray-800 font-semibold text-base">Tokyo, 2019</span></a>
+            <p class="ml-8 text-gray-700">
+              Beer themed visual effects and「カンパイ」("kanpai") booth for
+              beer festival in Shibuya.
+            </p>
+          </li>
+          <li>
+            <a
+              class="text-lg transition-colors text-jdBlue hover:bg-bounce hover:bg-opacity-10"
               target="_blank"
               rel="noreferrer"
               href="https://www.teamlab.art/w/proliferating_immense_life_year/"
-              >Proliferating Immense Life</a
-            >
-            - <b>Tokyo 2018, Shanghai 2019, Seoul 2020, Singapore 2021</b>
-						<p class="ml-8 text-gray-700">
+              >Proliferating Immense Life
+            - <span class="text-gray-800 font-semibold text-base">Tokyo 2018, Shanghai 2019, Seoul 2020, Singapore 2021</span></a>
+            <p class="ml-8 text-gray-700">
               Interactive installation showcasing Japan's seasonal flowers.
             </p>
           </li>
           <li>
             <a
-              class="text-lg"
+              class="text-lg transition-colors text-jdBlue hover:bg-bounce hover:bg-opacity-10"
               target="_blank"
               rel="noreferrer"
-              href="https://www.netflix.com/title/81219073"
-              >Arashi 5x20 Tour</a
-            >
-            - <b>Tokyo, Osaka, Sapporo, Nagoya, Fukuoka, 2019</b>
-						<p class="ml-8 text-gray-700">
-              On tour for Arashi's nationwide reunion tour (Japan's Backstreet Boys).
+              href="https://www.youtube.com/watch?v=Vb-_GHANw0E"
+              >Arashi 5x20 Tour
+            - <span class="text-gray-800 font-semibold text-base">Tokyo, Osaka, Sapporo, Nagoya, Fukuoka, 2019</span></a>
+            <p class="ml-8 text-gray-700">
+              On tour for Arashi's nationwide reunion tour (Japan's Backstreet
+              Boys).
             </p>
           </li>
         </ul>
       </section>
       <section id="contact">
-        <h2 class="font-semibold text-2xl">Get in touch via:</h2>
+        <h2 class="font-semibold text-2xl">Get in touch:</h2>
         <ul class="list-inside list-disc space-y-3 ml-3 mt-3">
           <li>
             <a
+							class="text-lg text-jdBlue"
               target="_blank"
               rel="noreferrer"
               href="mailto:jasperdegens@gmail.com"
               >Email</a
             >
           </li>
-          <li>
+          <!-- <li>
             <a
+							class="text-lg text-jdBlue"
               target="_blank"
               rel="noreferrer"
               href="resources/Jasper_Degens_CV.pdf"
               >View CV</a
             >
-          </li>
+          </li> -->
         </ul>
       </section>
     </main>
