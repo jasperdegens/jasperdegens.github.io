@@ -1,68 +1,188 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Jasper Degens</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<meta name="description" content="Portfolio for Jasper Degens, interactive artist and tech enthusiast.">
-	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
-	<style type="text/css">
-		body{
-			max-width: 800px;
-			margin: 20px auto;
-			color: #333333;
-			font-family: monospace;
-		}
-		section{
-			margin: 50px 20px;
-		}
-		p, li{
-			font-size: 14px;
-			line-height: 20px;
-		}
-		li{
-			margin-bottom: 5px;
-		}
-		a{
-			color: #015ab5;
-		}
-	</style>
-</head>
-<body>
-<header>
-</header>
-<div>
-	<section id="about">
-		<p>Hi, my name is Jasper! I get most excited when using technology to inspire creativity and realize new ideas. I've been lucky enough to collaborate and learn from amazing individuals around the world and in various industries and am still trying to discover new ways to approach, create, and ultimately understand technology.</p>
-		<p>You can read about my experience at <a href="https://www.wantedly.com/companies/team-lab/post_articles/175514">teamLab here</a>!</p>
-	</section>
-	<section id="projects">
-		<h2>Some cool projects I've worked on:</h2>
-		<ul>
-			<li><a href="https://borderless.teamlab.art/">Mori Digital Art Museum</a> in Tokyo - <b>2018-2020</b></li>
-			<li><a href="https://www.teamlab.art/e/ddp/">teamLab: Life</a> in Seoul - <b>2020</b></li>
-			<li><a href="https://borderless.teamlab.art/shanghai/">teamLab Borderless</a> in Shanghai - <b>2019</b></li>
-			<li><a href="mbct.html">Mikkeller Beer Celebration Tokyo (MBCT)</a> - <b>2019</b></li>
-			<li><a href="https://www.teamlab.art/w/proliferating_immense_life_year/">Proliferating Immense Life</a> - <b>2018, 2019, 2020</b></li>
-			<li><a href="https://www.teamlab.art/w/people_create_space/">People Create Space and Time</a> - <b>2019</b></li>
-			<li><a href="https://en.sandsresortsmacao.com/macau-shows/teamlab.html">SuperNature</a> in Macao - <b>2020</b></li>
-			<li><a href="https://www.marinabaysands.com/museum/exhibitions/future-world.html">Future Worlds @ ArtScience Museum</a> in Singapore - <b>2020</b></li>
-			<li><a href="https://www.netflix.com/title/81219073">Arashi 5x20 Tour</a> across Japan - <b>2019</b></li>
-			<li><a href="https://www.teamlab.art/w/sharingrock/">Sharing Rock Mass</a> - <b>2019-2020</b></li>
-			<li><a href="https://www.teamlab.art/w/impermanent-life-people/">Impermanent Life</a> - <b>2018</b></li>
-			<li><a href="https://www.teamlab.art/w/walk/">Walk, Walk, Walk: Search, Deviate, Reunite</a> - <b>2018</b></li>
-			<li><a href="https://www.teamlab.art/e/nuvali-water/">Nuvali teamLab Water : Interactive Water Show</a> outside Manila - <b>2019</b></li>
-			<li><a href="https://lavillette.com/programmation/teamlab-au-dela-des-limites_e2">teamLab: au-del&agrave; des limites</a> in Paris - <b>2018</b></li>
-			<li><a href="https://www.teamlab.art/w/pillar/">Message Pillar</a> - <b>2016, 2017</b></li>
-			<li><a href="https://www.youtube.com/watch?v=eUfnsGY6lQU">impactRemix</a> ios app - <b>2014</b></li>
-		</ul>
-	</section>
-	<section id="contact">
-		<h2>Get in touch via:</a></h2>
-		<ul>
-			<li><a href="mailto:jasperdegens@gmail.com">Email</a></li>
-			<li><a href="resources/Jasper_Degens_CV.pdf">View CV</a></li>
-		</ul>
-	</section>
-</div>
-</body>
+  <head>
+    <title>Jasper Degens</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <meta
+      name="description"
+      content="Portfolio for Jasper Degens, interactive artist and tech enthusiast."
+    />
+		<meta charset="utf-8" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/css">
+      body {
+        max-width: 900px;
+        color: #333333;
+        font-family: monospace;
+      }
+      a {
+        color: #015ab5 !important;
+      }
+    </style>
+  </head>
+  <body class="mx-auto">
+    <header></header>
+    <main class="text-sm md:text-base space-y-12 my-8 md:my-16 mx-8 md:mx-16">
+      <section id="about">
+        <div class="">
+          <div class="float-left mr-3 mb-2">
+            <img
+              src="images/jasperBounce.jpg"
+              class="rounded-xl h-28 w-28"
+              alt="Jasper Degens"
+            />
+          </div>
+          <div>
+            <p>
+              Hi, my name is Jasper! I get most excited when using technology to
+              inspire creativity and realize new ideas. I've been lucky enough
+              to collaborate and learn from amazing individuals around the world
+              and in various industries and am still trying to discover new ways
+              to approach, create, and ultimately understand technology.
+            </p>
+            <!-- <p>
+              You can read about my experience at
+              <a
+                href="https://www.wantedly.com/companies/team-lab/post_articles/175514"
+                >teamLab here</a
+              >!
+            </p> -->
+          </div>
+        </div>
+      </section>
+      <section id="projects">
+        <h2 class="font-semibold text-2xl">
+          Some cool projects I've built/worked on:
+        </h2>
+        <ul class="list-inside list-disc space-y-6 ml-3 mt-3">
+          <li>
+            <a
+              class="text-lg"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.teamlab.art/e/borderless-azabudai/"
+              >teamLab Borderless</a
+            >
+            - <b>Tokyo, 2024</b>
+            <p class="ml-8 text-gray-700">
+              A groundbreaking experience where artworks have no boundaries.
+            </p>
+          </li>
+					<li>
+            <a
+              class="text-lg"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.dendekaden.com/"
+              >DenDekaDen</a
+            >
+            - <b>International, 2023</b>
+						<p class="ml-8 text-gray-700">
+              Japan's #1 web3 anime IP, a collaboration with megastudio Toei Animation.
+            </p>
+          </li>
+          <li>
+            <a
+              class="text-lg"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.youtube.com/watch?v=HFIhXnBQBFs"
+              >Sugar Coated Lies</a
+            >
+            - <b>Kyoto, 2022</b>
+            <p class="ml-8 text-gray-700">
+              AR sculptures and physical mosaics that explore capitalism,  architecture, and excess.
+            </p>
+          </li>
+					<li>
+						<a
+							class="text-lg"
+							target="_blank"
+							rel="noreferrer"
+							href="https://www.superblue.com/miami/"
+							>Superblue Miami</a
+						>
+						- <b>Miami, 2022</b>
+						<p class="ml-8 text-gray-700">
+							teamLab exhibition alongside James Turrell and Es Devlin.
+						</p>
+					</li>
+          <li>
+            <a
+              class="text-lg"
+              target="_blank"
+              rel="noreferrer"
+              href="https://wholepicture.strata.gallery/"
+              >Whole Picture</a
+            >
+            - <b>Virtual, 2021</b>
+						<p class="ml-8 text-gray-700">
+              Interactive art experience slashes through canvases create dynamic, revealing layers.
+            </p>
+          </li>
+          <li>
+            <a class="text-lg" target="_blank" rel="noreferrer" href="mbct.html"
+              >Mikkeller Beer Celebration Tokyo (MBCT)</a
+            >
+            -
+            <b>Tokyo, 2019</b>
+						<p class="ml-8 text-gray-700">
+              Beer themed visual effects and「カンパイ」("kanpai") booth for beer festival in Shibuya.
+            </p>
+          </li>
+          <li>
+            <a
+              class="text-lg"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.teamlab.art/w/proliferating_immense_life_year/"
+              >Proliferating Immense Life</a
+            >
+            - <b>Tokyo 2018, Shanghai 2019, Seoul 2020, Singapore 2021</b>
+						<p class="ml-8 text-gray-700">
+              Interactive installation showcasing Japan's seasonal flowers.
+            </p>
+          </li>
+          <li>
+            <a
+              class="text-lg"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.netflix.com/title/81219073"
+              >Arashi 5x20 Tour</a
+            >
+            - <b>Tokyo, Osaka, Sapporo, Nagoya, Fukuoka, 2019</b>
+						<p class="ml-8 text-gray-700">
+              On tour for Arashi's nationwide reunion tour (Japan's Backstreet Boys).
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2 class="font-semibold text-2xl">Get in touch via:</h2>
+        <ul class="list-inside list-disc space-y-3 ml-3 mt-3">
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="mailto:jasperdegens@gmail.com"
+              >Email</a
+            >
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="resources/Jasper_Degens_CV.pdf"
+              >View CV</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
 </html>
